@@ -38,3 +38,53 @@
 1. Склонируйте репозиторий:
    ```bash
    git clone https://github.com/yourusername/chetile.git
+
+
+
+
+
+
+
+
+
+# Chetile - Android App for Working with Hadiths
+
+**Chetile** is an Android application that allows users to view random Hadiths, write data to an Excel file, and interact with a Hadith database.
+
+## Key Features:
+- **Random Hadiths**: Every time the app is launched or when a button is pressed, a random Hadith is displayed from the database.
+- **Write Data to Excel**: Users can enter data into a text field, and the app will save it to a pre-defined Excel file.
+- **Database Interaction**: The app uses SQLite to store Hadiths and allows fetching a random Hadith.
+- **User Interface**: The app uses Jetpack Compose for a modern, responsive UI.
+
+## Functionality:
+1. **Hadith Database**:
+   - Built-in SQLite database for storing Hadiths.
+   - Ability to add Hadiths manually.
+   - Fetching a random Hadith each time the app is opened.
+
+2. **Excel File**:
+   - Creating a new Excel file if it doesn't exist.
+   - Updating values in an existing Excel file.
+   - Opening and viewing the Excel file containing data.
+
+3. **User Interface**:
+   - Main screen displaying a random Hadith.
+   - Buttons to select columns and days of the week for data entry.
+   - Input field for entering values into the Excel file.
+   - Button to open the Excel file.
+
+## Technologies Used:
+- **Jetpack Compose** for building the UI.
+- **SQLite** for storing Hadiths.
+- **Apache POI** for working with Excel files.
+
+## Requirements:
+- Minimum SDK Version: Android 8.0 (API 26)
+- Target SDK Version: Android 12 (API 34)
+
+## Installation and Usage:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/chetile.git
+
